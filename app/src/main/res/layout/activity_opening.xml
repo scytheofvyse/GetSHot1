@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.scytheofvyse.getshot.opening"
+    android:background="@drawable/winner"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.85">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GetShot"
+            android:textSize="50dp"
+            android:paddingTop="0dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/get_shot"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Count every moment, Get more Scores."
+            android:layout_weight="6"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/count_moment"/>
+
+        <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Because"
+             android:textSize="20dp"
+            android:textAllCaps="true"
+             android:layout_centerHorizontal="true"
+             android:textColor="@android:color/white"
+            android:layout_weight="0"
+             android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/because"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Luck Is Excuse"
+            android:textAllCaps="true"
+            android:layout_below="@id/because"
+            android:textColor="@android:color/holo_red_light"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select the game"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="22dp"
+        android:layout_weight="0"
+        android:id="@+id/select_button"
+        android:onClick=""/>
+
+</LinearLayout>
